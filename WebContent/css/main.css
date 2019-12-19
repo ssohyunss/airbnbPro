@@ -86,7 +86,7 @@ ul, ol {
 	width: 100px; 
 	border-right: 1px solid #ccc;
 	vertical-align: middle;
-	height: 40px;
+	height: 38px;
 }
 
 /*NAV-SEARCH CSS*/
@@ -94,6 +94,7 @@ ul, ol {
 	display: inline-block;
 	width: 490px;
 	height: 100%;
+	box-sizing: border-box;
 }
 
 #nav-search-wrapper form svg {
@@ -112,9 +113,9 @@ ul, ol {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  background-image: url('search-icon.svg');
+  background-image: url('/img/search-icon.png');
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 15px;
   background-size: 20px;
 }
 
@@ -137,4 +138,24 @@ ul, ol {
 #nav-search-wrapper form input:-moz-placeholder {
 	color: #666;
 	font-size: 14px;
+}
+
+.top-nav ul {
+	float: right;
+	padding: 17px 0;
+}
+
+.top-nav ul li {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.top-nav ul li a:link {
+	color: #484848;
+	font-size: 14px; 
+	
+}
+
+.top-nav ul li a:visited {
+	color: #484848;
 }

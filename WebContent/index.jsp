@@ -8,5 +8,8 @@
 </head>
 <body>
 hello world~
+<ul>
+	<li><a href="main.jsp">메인</a>
+</ul>
 </body>
 </html>
