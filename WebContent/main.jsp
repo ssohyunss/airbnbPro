@@ -22,7 +22,7 @@
 				<li><a href="#">Become a Host</a></li>
 				<li><a href="#">Help</a></li>
 				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">Log In</a></li>		
+				<li><a href="login.jsp">Log In</a></li>		
 		</ul>
 	</div>
 </body>
