@@ -13,6 +13,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%@include file="./main.jsp" %>
 <div class="card">
 <article class="card-body">
 <!-- sns 로그인 추후 구글, 페이스북으로 수정 예정  2019.12.18 -->
@@ -30,7 +31,7 @@
     </div>                      
     <div class="row">
             <div class="form-group">
-                <button type="submit" class="btn btn-login"> 로그인  </button>
+                <button type="submit" class="btn btn-login">로그인</button> 
             </div>                         
     </div>
     <div class="text-right">
